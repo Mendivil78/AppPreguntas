@@ -15,7 +15,7 @@ fun GrafoNavegacion(){
         composable(Rutas.PantallaInicio.ruta){
             PantallaHome(navController = navController)
         }
-        composable(Rutas.PantallaInicio.ruta){
+        composable(Rutas.PantallaCuestiones.ruta){
             Cuestionario()
         }
     }
